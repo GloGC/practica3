@@ -47,11 +47,31 @@ int main(){
   prod = cad*n;
 }
 
-#Exercici5
+#Exercici 5
 int main(){
   char a[3];
   a[0] = 1;
   b[1] = 2;
   c[2] = 3;
   return 0;
+}
+
+#Exercici 6
+int main(){
+  int a[] = {1, 2, 3, 4};
+  int b[] = {5, 6, 7, 8};
+  int c[4];
+  int i;
+  for (i = 0; i<4; ++i){
+    c[i] = a[i] * b[i];
+  }
+}
+
+#Exercici 7
+int main(){
+  int i,a[20];
+  for (i = 0; i<20; i++){
+    a[i] = i*4;
+  }
+  returnt 0;
 }
